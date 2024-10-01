@@ -1,8 +1,6 @@
 import json
 
 from django.utils.module_loading import import_string
-
-from .exceptions import LABEL_TO_EXCEPTION, SlackException
 from .app_settings import app_settings
 
 

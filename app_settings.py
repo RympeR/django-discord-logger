@@ -12,9 +12,9 @@ def setting(suffix, default):
 
 class AppSettings(object):
     DEFAULT_BACKEND = (
-        'blob.django_discord.backends.DisabledBackend'
+        'django_discord_logger.backends.DisabledBackend'
         if settings.DEBUG
-        else 'blob.django_discord.backends.UrllibBackend'
+        else 'django_discord_logger.backends.UrllibBackend'
     )
 
     BOT_USERNAME = setting('BOT_USERNAME', None)

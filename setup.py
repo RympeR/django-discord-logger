@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-discord-logger',  # Replace with your app's name
+    name='django_discord_logger',  # Replace with your app's name
     version='0.1.0',  # Initial release version
     description='Monitor your Django app with Discord webhooks',
     long_description=open('README.md').read(),

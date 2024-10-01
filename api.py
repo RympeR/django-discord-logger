@@ -36,7 +36,7 @@ def discord_message(
     }
 
     # Check if the text exceeds Discord's embed description limit
-    if len(text) > 4000:
+    if len(text) > 2000:
         # Truncate the description and indicate that it's truncated
         embed["description"] = f"```{text[:3900]}... (truncated)```"
 
